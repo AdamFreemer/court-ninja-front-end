@@ -5,6 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 const people = [
   { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
+  { name: 'Dave Smith',     title: 'Nerd',                email: 'john@smith.com',             role: 'Member' },
+  { name: 'Bob Dough',      title: 'Genius',              email: 'bob@fu.com',                 role: 'Member' },
   // More people...
 ]
 
