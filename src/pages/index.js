@@ -1,4 +1,4 @@
-import FormField from '@/components/formField'
+import FormField from '../components/formField'
 import Navbar from '../components/navbar'
 
 const fields = [
