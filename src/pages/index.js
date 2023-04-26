@@ -42,7 +42,7 @@ export default function Example() {
           </div>
 
           <div className="mt-6 flex items-center justify-end gap-x-6">
-            <button type="button" className="text-sm font-semibold leading-6 text-white"onClick={handleSubmut} >
+            <button type="button" className="text-sm font-semibold leading-6 text-white" onClick={handleSubmit} >
               Cancel
             </button>
             <button
