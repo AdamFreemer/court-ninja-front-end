@@ -2,20 +2,20 @@ import FormField from '../components/formfield'
 import Navbar from '../components/navbar'
 
 const fields = [
-  { name: 'Player 1' },
-  { name: 'Player 2' },
-  { name: 'Player 3' },
-  { name: 'Player 4' },
-  { name: 'Player 5' },
-  { name: 'Player 6' },
-  { name: 'Player 7' },
-  { name: 'Player 8' },
-  { name: 'Player 9' },
+  { name: 'Player 1', id: 'player1' },
+  { name: 'Player 2', id: 'player2' },
+  { name: 'Player 3', id: 'player3' },
+  { name: 'Player 4', id: 'player4' },
+  { name: 'Player 5', id: 'player5' },
+  { name: 'Player 6', id: 'player6' },
+  { name: 'Player 7', id: 'player7' },
+  { name: 'Player 8', id: 'player8' },
+  { name: 'Player 9', id: 'player9' },
 ]
 
 export default function Example() {
   function handleSubmit() {
-    console.log('increment like count');
+    alert("How rude!");
   }
 
   return (
@@ -35,21 +35,22 @@ export default function Example() {
             <div className="border-b border-white/10 pb-12">
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 {fields.map((field) => (
-                  <FormField fieldName={field.name} />
+                  <FormField fieldName={field.name} fieldId={field.id} />
                 ))}
               </div>
             </div>
           </div>
 
           <div className="mt-6 flex items-center justify-end gap-x-6">
-            <button type="button" className="text-sm font-semibold leading-6 text-white" onClick={handleSubmit} >
+            <button type="button" className="text-sm font-semibold leading-6 text-white" >
               Cancel
             </button>
             <button
-              type="submit"
+              type="button"
+              onClick={handleSubmit}
               className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
             >
-              Save
+              Submit
             </button>
           </div>
         </form>

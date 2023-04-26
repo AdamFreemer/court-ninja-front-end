@@ -35,9 +35,9 @@ export default function Document() {
           <meta name="twitter:image" content="https://yourdomain.com/icons/android-chrome-192x192.png" />
           <meta name="twitter:creator" content="@DavidWShadow" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="PWA App" />
-          <meta property="og:description" content="Best PWA App in the world" />
-          <meta property="og:site_name" content="PWA App" />
+          <meta property="og:title" content="CourtNinja" />
+          <meta property="og:description" content="Kickin ass and taking names" />
+          <meta property="og:site_name" content="CourtNinja" />
           <meta property="og:url" content="https://yourdomain.com" />
           <meta property="og:image" content="https://yourdomain.com/icons/apple-touch-icon.png" />
           {/* <!-- apple splash screen images --> */}
