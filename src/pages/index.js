@@ -1,5 +1,5 @@
-import FormField from '../components/formField'
-import Navbar from '../components/navbar'
+import FormField from '../components/FormField'
+import Navbar from '../components/Navbar'
 
 const fields = [
   { name: 'Player 1' },
