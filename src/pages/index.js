@@ -12,7 +12,6 @@ export default function Index() {
   if (user) {
     return (
       <>
-      
         <Navbar resource="Tournament" />
         <InputForm /> 
       </>
