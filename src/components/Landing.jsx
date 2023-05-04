@@ -127,7 +127,7 @@ export default function Landing() {
             />
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-96 sm:py-96 lg:py-96">
+            <div className="mx-auto max-w-2xl py-48 sm:py-96 lg:py-96">
               <div className="text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                   Welcome to Court Ninja!
