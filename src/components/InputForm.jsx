@@ -1,5 +1,5 @@
 import React from 'react';
-import FormField from '../components/FormField'
+import FormField from '../components/formfield'
 
 export default function InputForm(props) {
   function handleSubmit() {

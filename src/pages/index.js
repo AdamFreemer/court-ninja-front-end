@@ -1,5 +1,5 @@
 
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import InputForm from '../components/InputForm';
 import { useUser } from '@auth0/nextjs-auth0/client';
 import { UserProvider } from '@auth0/nextjs-auth0/client';
