@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog, Disclosure } from '@headlessui/react'
 import { Bars3Icon, MinusSmallIcon, PlusSmallIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link';
 import {
   ArrowPathIcon,
   CheckIcon,
@@ -13,7 +14,7 @@ import {
 
 const navigation = [
   { name: 'Product', href: '#' },
-  { name: 'About', href: '#' },
+  { name: 'Players', href: '/players' },
   { name: 'Company', href: '#' },
 ]
 
